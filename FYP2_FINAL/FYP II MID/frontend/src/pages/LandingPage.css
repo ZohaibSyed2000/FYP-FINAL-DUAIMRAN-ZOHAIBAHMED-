@@ -1,0 +1,26 @@
+.title-text {
+  margin-top: 1em !important;
+}
+@media (max-width: 957px) {
+  .heading .title-text {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 710px) {
+  .heading .title-text {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .heading .title-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading .title-text {
+    font-size: 1.5rem;
+  }
+}

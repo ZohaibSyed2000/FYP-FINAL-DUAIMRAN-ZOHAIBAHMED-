@@ -1,0 +1,44 @@
+.filterBox {
+    width: 10vmax;
+    position: absolute;
+    top: 10vmax;
+    left: 4vmax;
+  }
+  .show-results{
+    margin-bottom: 20px;
+  }
+  .selected{
+    background-color: black;
+    color: white;
+  }
+  .pagination {
+    display: inline-block;
+    margin: 20px auto;
+  }
+  
+  .pagination a {
+    color: #000;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 0 5px;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+  
+  
+  
